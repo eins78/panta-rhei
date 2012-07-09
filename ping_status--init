@@ -1,15 +1,15 @@
 #!/bin/sh /etc/rc.common
                                                                                
-# structure from http://wiki.openwrt.org/oldwiki/mod.led.sysloadled?s%5B%5D=led
- 
+# init file for 'ping_status_LED'
+
 START=99
 STOP=01
 start() {
         echo "Starting Online Status Monitor"
-        [ -f /usr/bin/ping_status2LED.sh ] && /usr/bin/ping_status2LED.sh &        
-}                
- 
-stop() {      
+        [ -f /usr/bin/ping_status_LED ] && /usr/bin/ping_status_LED &        
+}         
+
+stop() {
         echo "Stopping Online Status Monitor"          
-        killall ping_status2LED.sh                
-} 
+        killall ping_status_LED                
+}
