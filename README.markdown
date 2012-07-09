@@ -6,7 +6,7 @@
     | |   | | | || |\  | | || | | | | |\ \| | | || |___ _| |_ 
     \_|   \_| |_/\_| \_/ \_/\_| |_/ \_| \_\_| |_/\____/ \___/ 
     
-     * The Lamp glowing only when connected to the internet *
+     * The Lamp glowing only when connected to the Internet *
                                                                
 
 
